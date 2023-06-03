@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "moduleResolution": "Node",
+    "outDir": "./built",
+    "target": "ES2022"
+  },
+  "include": ["./src/**/*", "app.ts"],
+  "exclude": ["node_modules"]
+}
