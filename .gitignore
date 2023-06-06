@@ -2,5 +2,6 @@
 node_modules
 
 # auto-generated
-built
+dist
 package-lock.json
+yarn-error.log
