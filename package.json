@@ -4,9 +4,8 @@
   },
   "main": "src/index.ts",
   "scripts": {
-    "build": "webpack --progress --stats-error-details && node ./dist/bundle.js"
+    "build": "npx ts-node src/index.ts"
   },
-  "type": "commonjs",
   "devDependencies": {
     "@types/express": "^4.17.17",
     "@types/node": "^20.2.5",
